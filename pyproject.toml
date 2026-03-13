@@ -1,0 +1,10 @@
+[project]
+name = "meeting-assitant"
+version = "0.1.0"
+description = "Meeting Intelligence Assistant - AI-powered application that transforms meeting transcripts into structured insights"
+requires-python = ">=3.13.7"
+dependencies = [
+    "fastapi>=0.135.1",
+    "openai>=2.28.0",
+    "uvicorn[standard]>=0.41.0",
+]
